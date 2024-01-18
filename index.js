@@ -66,7 +66,7 @@ class Director {
     if(!cell.c) {
       body.classList.add('solved');
       const message = document.createElement('p');
-      message.textContent = "Natália, Assim como neste jogo, a vida também pode ser um labirinto, cheio de surpresas e desafios. Mas não importa quão complicado seja o caminho, eu sempre quero estar ao seu lado para enfrentá-lo. Natalia, você aceita ser minha namorada e continuar esta incrível aventura juntos? 💕";
+      message.textContent = ;"Parabéns, você concluiu";
       body.appendChild(message);
       
       return;
