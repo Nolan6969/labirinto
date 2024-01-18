@@ -65,9 +65,7 @@ class Director {
     
     if(!cell.c) {
       body.classList.add('solved');
-      const message = document.createElement('p');
-      message.textContent = ;"Parabéns, você concluiu";
-      body.appendChild(message);
+     
       
       return;
     }
